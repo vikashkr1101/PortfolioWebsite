@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app.light {
+    /* background-color: lightgray; */
+    background-image: url('../lightbg.jpg');
+    color: black;
+  }
+  
+  .app.dark {
+    /* background-color: #282c34; */
+    background-image: url('../darkbg.jpg');
+    color: white;
+  }
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 83.2vh;
+  }
+  
+  .profile-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid #2900ff;
+    object-fit: cover; /* Ensures image fills the container */
+    margin-left: 7rem;
+    margin-top: 13rem;
+  }
+  
+  .contact-info {
+    flex: 1; /* Expands content to fill remaining space */
+    margin-left: 7rem;
+  }
+  
+  .contact-info h1 {
+    margin-bottom: 30px;
+    margin-top: 6.5rem;
+    font-size: 4rem;
+  }
+  
+  .form{
+    border-top: 3px solid #2900ff;
+    border-left: 3px solid #2900ff;
+    padding: 3rem;
+    width: 42.19rem;
+    height: 19.5rem;
+    display: flex;
+    
+  }
+  .contact-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20rem;
+    padding: 10px;
+  }
+  
+  .contact-info label {
+    font-weight: bold;
+  }
+  
+  .contact-info input,
+  .contact-info textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    /* border-radius: 5px; */
+  }
+  
+  .contact-info textarea {
+    height: 60px; /* Adjust textarea height as needed */
+  }
+  
+  .contact-info button {
+    background-color: #00c3ff; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info button:hover {
+    background-color: #0090bc; /* Darker green on hover */
+  }
+  
+  .contact-info p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    margin-right: 10px;
+    color: #000;
+  }
+  
+  .contact-info i {
+    font-size: 20px;
+  }
+  .glow1 {
+    box-shadow: 0 0 20px #00c3ff;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .contact-email{
+    padding-left: 5rem;
+  }
+  .contact-email a{
+    text-decoration: none;
+    color: rgb(104 101 101);
+    font-size: 1.2rem;
+  }
+  .contact-email p{
+    color: rgb(104 101 101);
+    font-size: 1.2rem;
+  }
+  
+  .social-icons {
+    margin-top: 5px;
+    padding: 1rem;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 24px;
+   
+    padding-right: 1rem;
+  }
+  .fb{
+    color: #007bff;
+  }
+  .insta{
+    color: #ff02ddd6;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }

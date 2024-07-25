@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app.light {
+  /* background-color: lightgray; */
+  background-image: url('./lightbg.jpeg');
+  color: black;
+}
+
+.app.dark {
+  /* background-color: #282c34; */
+  background-image: url('./darkbg.jpg');
+  color: white;
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #282c34;
+  height: 1px;
+  border: none;
+}
